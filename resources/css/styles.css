@@ -103,7 +103,7 @@ header .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     
 
     header .mobile {
@@ -245,34 +245,11 @@ header .mobile {
     }
 } 
 
-/* Offering Section */
+/* Offerings Section NEW */
+
 #offerings-section {
-    height: 37rem;
     background-color: hsla(183, 6%, 47%, .3);
-    padding: 1rem 0 0 0;
     padding: 2rem 2rem 0 2rem;
-}
-
-#offerings-section .container {
-    flex-wrap: wrap;
-}
-
-#offerings-section .row {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 4rem 0 4rem;
-}
-
-#offerings-section .card {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
-    max-width: 16rem;
-    margin: 0 0 3rem 0;
-    background-color: #FFFFFF;
 }
 
 #offerings-section h2 {
@@ -280,17 +257,46 @@ header .mobile {
     color: hsla(183, 26%, 46%, 1);
 }
 
+#offerings-section .offerings-container {
+    padding: 0 0 2.5rem 0;
+}
+
+#offerings-section .spacer {
+    max-width: 1500px;
+    margin: auto;
+}
+
+#offerings-section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#offerings-section .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#offerings-section .item {
+    max-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 2rem 0;
+}
+
 #offerings-section img {
-    width: 80%;
-    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
     overflow: hidden;
-    text-align: center;
-    /*margin: 0 0 1rem 0;*/
+    margin: 0 0 .75rem 0;
 }
 
 #offerings-section p {
-    color:#728182;
-    text-align: center;
+    color: hsla(183, 26%, 46%, 1);
+    font-size: 1.25rem;
 }
 
 
